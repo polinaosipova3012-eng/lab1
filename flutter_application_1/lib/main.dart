@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
           Container(
             width: 200, // Задаём ширину
             height: 100, // Задаём высоту
-            color: Colors.red, // Задаём цвет фона
+            color: const Color.fromARGB(255, 244, 54, 54), // Задаём цвет фона
           ),
 
           // Row с тремя текстовыми элементами
@@ -50,8 +50,8 @@ class MyHomePage extends StatelessWidget {
 
           // Второй Container — ещё один с другими параметрами
           Container(
-            width: 300, // ширина
-            height: 80,  //высота
+            width: 900, // ширина
+            height: 60,  //высота
             color: const Color.fromARGB(255, 201, 33, 243), // Другой цвет
           ),
         ],
