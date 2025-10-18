@@ -24,23 +24,21 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Очищаем содержимое метода build и создаём новый интерфейс
-
     return Scaffold(
-      // Используем виджет Scaffold как основной каркас экрана
+      // Используем виджет Scaffold (основной каркас экрана)
       body: Column(
         // Размещаем внутри body виджет Column для вертикального расположения элементов
         children: [
-          // Первый Container — задаём ширину, высоту и цвет
+          // Первый Container
           Container(
-            width: 200, // Задаём фиксированную ширину
-            height: 100, // Задаём фиксированную высоту
+            width: 200, // Задаём ширину
+            height: 100, // Задаём  высоту
             color: const Color.fromARGB(255, 174, 105, 253), // Задаём цвет фона
           ),
 
           // Row с тремя текстовыми элементами
           Row(
-            // Используем mainAxisAlignment: MainAxisAlignment.spaceEvenly
+            // mainAxisAlignment: MainAxisAlignment.spaceEvenly
             // чтобы равномерно распределить тексты по ширине экрана
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -50,7 +48,7 @@ class MyHomePage extends StatelessWidget {
             ],
           ),
 
-          // Второй Container — ещё один с другими параметрами
+          // Второй Container
           Container(
             width: 800, // Другая ширина
             height: 80,  // Другая высота
@@ -72,7 +70,7 @@ class MyHomePage extends StatelessWidget {
 
                 // Второй CircleAvatar — с изображением из интернета
                 CircleAvatar(
-                  radius: 50, // Другой радиус
+                  radius: 50, // радиус
                   backgroundImage: NetworkImage(
                     'https://avatars.mds.yandex.net/i?id=dba9ed35353666649375c50ec1edefc71642d080b4db2eef-12421437-images-thumbs&n=13', // Ссылка на любое изображение из интернета
                   ),
