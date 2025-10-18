@@ -31,6 +31,7 @@ class MyHomePage extends StatelessWidget {
         children: [
           // Первый Container
           Container(
+            margin: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 60.0),
             width: 200, // Задаём ширину
             height: 100, // Задаём  высоту
             color: const Color.fromARGB(255, 174, 105, 253), // Задаём цвет фона
@@ -50,6 +51,7 @@ class MyHomePage extends StatelessWidget {
 
           // Второй Container
           Container(
+            margin: EdgeInsets.fromLTRB(20.0, 70.0, 20.0, 50.0),
             width: 800, // Другая ширина
             height: 80,  // Другая высота
             color: const Color.fromARGB(255, 198, 243, 33), // Другой цвет
