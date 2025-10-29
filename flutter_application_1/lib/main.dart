@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
-void main() {
+void main()  async {
+    await Supabase.initialize(
+    url: 'https://supabase.com/dashboard/project/nuzmjeulxjlxqxvcpxxh',
+    anonKey: 'https://supabase.com/dashboard/project/nuzmjeulxjlxqxvcpxxh/editor/17452?schema=public',
+  );
   runApp(const MyApp());
 }
 
