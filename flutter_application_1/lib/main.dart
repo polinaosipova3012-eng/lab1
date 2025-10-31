@@ -107,7 +107,7 @@ print("after await");
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // === СОХРАНЁННЫЕ ЭЛЕМЕНТЫ ИЗ ОРИГИНАЛА ===
+            //  Элементы
             Container(
               margin: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 60.0),
               width: 200,
